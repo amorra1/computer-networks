@@ -46,7 +46,7 @@ simulated_delays = [result[1] for result in simulated_results]
 plt.figure(figsize=(8, 5))
 plt.plot(lambda_vals, theoretical_results, label='Theoretical Delay', linestyle='dashed', color='red')
 plt.plot(lambda_vals, simulated_delays, label='Simulated Delay', marker='o', color='blue')
-plt.xlabel('Arrival Rate (λ)')
+plt.xlabel('Arrival Rate (Lambda)')
 plt.ylabel('Expected Queueing Delay')
 plt.title('Queueing Delay vs Arrival Rate')
 plt.legend()
